@@ -1,8 +1,7 @@
 name: omni-cnn
 
 base:
-  system: ubuntu
-  version: 18.04
+  ubuntu: 18.04
 
 apt-packages:
   - python-setuptools
@@ -10,5 +9,4 @@ apt-packages:
 pip-packages:
   - tensorflow==1.4
 
-custom:
-  - ":"
+
